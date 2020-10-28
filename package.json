@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-bootstrap",
+  "version": "1.0.0",
+  "description": "Proyecto NodeJs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiBalbiani/Bootstrap_Test.git"
+  },
+  "author": "Santiago Balbiani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiBalbiani/Bootstrap_Test/issues"
+  },
+  "homepage": "https://github.com/SantiBalbiani/Bootstrap_Test#readme"
+}
