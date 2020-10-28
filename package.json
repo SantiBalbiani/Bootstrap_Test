@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SantiBalbiani/Bootstrap_Test/issues"
   },
-  "homepage": "https://github.com/SantiBalbiani/Bootstrap_Test#readme"
+  "homepage": "https://github.com/SantiBalbiani/Bootstrap_Test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
