@@ -7,22 +7,22 @@
 
     <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
    <link rel="stylesheet" href="css/main.css">
     <title>Hello, world!</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="">Hoteles</a>
-      <button class="navbar-toggler" type="button" data-toggle="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"> <a class="nav-link" href="index.html"> Nosotros</a></li>
-          <li class="nav-item "> <a class="nav-link" href="about.html"> Nosotros2</a></li>
-          <li class="nav-item "> <a class="nav-link"> Nosotros3</a></li>
-          <li class="nav-item "> <a class="nav-link"> Nosotros4</a></li>
-          <li class="nav-item "> <a class="nav-link"> Nosotros5</a></li>
+          <li class="nav-item active"> <a class="nav-link" href="index.html"> Inicio</a></li>
+          <li class="nav-item "> <a class="nav-link" href="about.html"> Nosotros</a></li>
+          <li class="nav-item "> <a class="nav-link" href="contacto.html"> Contacto</a></li>
+       
         </ul>
       </div>
     </nav>
@@ -30,6 +30,14 @@
         <h1 class="display-4">Hoteles</h1>
       </div>
 <div class="container">
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"> <a  href="index.html"> Home</a> </li>
+        
+    </ol>
+</nav>
+
       <div class="row">
           <div class="col-sm-4">
           
@@ -123,8 +131,9 @@
     <div class="col-sm-4">
         <address>
             <h3> Oficina Central</h3>
-            Direccion 2124, CABA, Argentina
-            +54911531543
+            <p><span class="oi oi-home footer-address-icon"></span> Direccion 2124, CABA, Argentina</p>
+            <p><span class="oi oi-phone footer-address-icon"></span> +54911531543</p>
+            <p><span class="oi oi-inbox footer-address-icon"></span> contacto@contacto.com</p>
         </address>
     </div>
 
@@ -140,7 +149,7 @@
     <!-- Option 1: IMPORTANDO ARCHIVOS LOCALES -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/css/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
