@@ -1,6 +1,8 @@
 .jumbotronModif{
-    background-color: yellow;
+    background-image: url('/images/Banner.jpg');
+    /* background-color: yellow; */
     margin-top: 50px;
+    
 }
 
 .elFooter{
