@@ -36,7 +36,7 @@
             <li class="breadcrumb-item active" aria-current="page"> Precios</li>
         </ol>
     </nav>
-
+<!-- Ejemplo de tabs -->
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="compara-tab" data-toggle="tab"
@@ -155,24 +155,67 @@
 
   <div class="tab-pane fade show " id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
     <!-- Acá comienza el contenido del segundo tab -->
-  <div class="d-flex justify-content-center">
-    <div class="card" style="width:18rem;">
-    <div class="card-header" style="background-color: blue; color: cornsilk;">
-      Tarjetas Aceptadas
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item"> Tarjeta Básica</li>
-      <li class="list-group-item"> Tarjeta Gold</li>
-      <li class="list-group-item"> Tarjeta Black</li>
-    </ul>
-    </div>
+  
+    <!-- INICIO EJEMPLO ACCORDION -->
+        <div class="accordion" id="accordionTarjetas">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+                  Tarjeta Básica
+                </button>
+              </h5>
+            </div>
+            <div class="collapse show" id="collapseBasica" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Podes reservar hasta 3 Cuotas sin interés.
+              </div>
+            </div> 
+          </div>
+
+<!--           ==================Inicio Segundo Accordion===================== -->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">
+                  Tarjeta VIP
+                </button>
+              </h5>
+            </div>
+            <div class="collapse" id="collapseVIP" aria-labelledby="headingTwoo" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Podes reservar hasta 12 Cuotas sin interés.
+              </div>
+            </div> 
+          </div>
+<!--           ===================Fin Segundo Accordion========================== -->
+
+
+<!--           ==================Inicio Tercer Accordion===================== -->
+<div class="card">
+  <div class="card-header" id="headingThree">
+    <h5 class="mb-0">
+      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="true" aria-controls="collapseBlack">
+        Tarjeta Black
+      </button>
+    </h5>
   </div>
+  <div class="collapse" id="collapseBlack" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+    <div class="card-body">
+      Podes reservar hasta 18 Cuotas sin interés.
+    </div>
+  </div> 
+</div>
+<!--           ===================Fin Segundo Tercer========================== -->
+
+        </div>
+     <!-- FIN EJEMPLO ACCORDION -->
   </div>
 
   <div class="tab-pane fade show " id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
     <!-- Acá comienza el contenido del segundo tab -->
   <div class="d-flex justify-content-center">
-  <p> comentarios </p>
+  <p> No hay Comentarios. </p>
   </div>
   </div>
 </div>
